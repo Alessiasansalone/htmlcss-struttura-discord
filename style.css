@@ -23,23 +23,25 @@
 /* */
 
 
-/* .debug */
-
-.debug .top {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-around;
-}
-
-
+/* debug */
 .debug .container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* /.debug */
+.debug .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.debug .footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* /debug */
 
 
 /* header */
@@ -103,3 +105,60 @@
 }
 /* /section2 */
 
+/* section3*/
+.fandom {
+    width: 1680px;
+    height: 760px;
+}
+/* /section3 */
+
+/* section4*/
+.avventura {
+    width: 1680px;
+    height: 1435px;
+    flex-direction: column;
+}
+
+.affidabile {
+    width: 1225px;
+    height: 214px;
+    background-color: var(--testo-color);
+}
+
+.tablet {
+    width: 1225px;
+    height: 645px;
+    background-color: var(---img-color);
+}
+/* /section4 */
+
+/* /main */
+
+/* footer */
+.footer-top {
+    width: 1680px;
+    height: 500px;
+    background-color: rgb(35 39 42);
+}
+
+.element {
+    background-color: var(--testo-color);
+    border-style: dotted;
+}
+
+.il-tuo-posto {
+    width: 345px;
+    height: 405px;
+}
+
+.colonna {
+    width: 196px;
+    height: 405px;
+}
+
+.footer-bottom {
+    width: 1680px;
+    height: 165px;
+    background-color: rgb(35 39 42);
+}
+/* /footer */
