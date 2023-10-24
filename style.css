@@ -1,0 +1,70 @@
+/* Common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* /Common */
+ :root {
+    --contenitore1-color: rgb(80 220 224);
+    --contenitore2-color: rgb(49 97 224);
+    --testo-color: rgb(21 103 109);
+ }
+/* */
+
+
+/* .debug */
+
+.debug .top {
+    width: 1680px;
+    height: 72px;
+    background-color: var(--contenitore1-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.debug .logo {
+    width: 158px;
+    height: 72px;
+    background-color: var(--testo-color);
+}
+
+.debug .menu {
+    width: 578px;
+    height: 72px;
+    background: var(--testo-color);
+}
+
+.debug .accedi {
+    width: 122px;
+    height: 72px;
+    background: var(--testo-color);
+}
+
+.debug .container {
+    background-color: var(--contenitore2-color);
+}
+
+.debug .presentazione {
+    width: 798px;
+    height: 324px;
+    background-color: var(--testo-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* /.debug */
+
+
+
+.container {
+    width: 1680px;
+    height: 625px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
