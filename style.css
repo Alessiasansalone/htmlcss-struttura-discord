@@ -4,11 +4,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.dispari {
+    background-color: var(--contenitore1-color);
+}
+
+.pari {
+    background-color: var(--contenitore2-color)
+}
 /* /Common */
+
  :root {
     --contenitore1-color: rgb(80 220 224);
     --contenitore2-color: rgb(49 97 224);
     --testo-color: rgb(21 103 109);
+    ---img-color: rgb(203 71 226)
  }
 /* */
 
@@ -16,55 +26,80 @@
 /* .debug */
 
 .debug .top {
-    width: 1680px;
-    height: 72px;
-    background-color: var(--contenitore1-color);
     display: flex;
     align-items: center;
     justify-content: center;
     justify-content: space-around;
 }
 
-.debug .logo {
-    width: 158px;
-    height: 72px;
-    background-color: var(--testo-color);
-}
-
-.debug .menu {
-    width: 578px;
-    height: 72px;
-    background: var(--testo-color);
-}
-
-.debug .accedi {
-    width: 122px;
-    height: 72px;
-    background: var(--testo-color);
-}
 
 .debug .container {
-    background-color: var(--contenitore2-color);
-}
-
-.debug .presentazione {
-    width: 798px;
-    height: 324px;
-    background-color: var(--testo-color);
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 /* /.debug */
 
 
-
-.container {
+/* header */
+.top {
     width: 1680px;
-    height: 625px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 72px;
+    background-color: var(--contenitore1-color);
 }
+
+.logo {
+    width: 158px;
+    height: 72px;
+    background-color: var(---img-color);
+}
+
+.menu {
+    width: 578px;
+    height: 72px;
+    background: var(--testo-color);
+}
+
+.accedi {
+    width: 122px;
+    height: 72px;
+    background: var(--testo-color);
+}
+
+.presentazione {
+    width: 798px;
+    height: 324px;
+    background-color: var(--testo-color);
+}
+/* /header */
+
+/* main */
+
+
+/* section1 */
+.invito {
+    width: 1680px;
+    height: 742px;
+}
+
+.img {
+    width: 685px;
+    height: 510px;
+    background-color: var(---img-color);
+}
+
+.text {
+    width: 540px;
+    height: 510px;
+    background-color: var(--testo-color);
+}
+/* /section1 */
+
+/* section2*/
+.facile {
+    width: 1680px;
+    height: 850px;
+}
+/* /section2 */
 
