@@ -24,49 +24,57 @@
 
 
 /* debug */
-.debug .container {
+.debug {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.debug .top {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.debug .footer-bottom{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
 /* /debug */
 
 
+
 /* header */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .top {
     width: 1680px;
     height: 72px;
-    background-color: var(--contenitore1-color);
+    background-color: var(--contenitore2-color);
+    justify-content: space-around;
+    flex-direction: row;
 }
 
 .logo {
     width: 158px;
     height: 72px;
-    background-color: var(---img-color);
 }
 
 .menu {
     width: 578px;
     height: 72px;
-    background: var(--testo-color);
+    list-style: none;
+}
+
+.white {
+    color: white;
 }
 
 .accedi {
     width: 122px;
     height: 72px;
-    background: var(--testo-color);
+}
+
+.click {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    height: 36px;
+    width: 71px;
 }
 
 .presentazione {
@@ -83,18 +91,21 @@
 .invito {
     width: 1680px;
     height: 742px;
+    justify-content: center;
 }
 
 .img {
     width: 685px;
     height: 510px;
     background-color: var(---img-color);
+    justify-content: center;
 }
 
 .text {
     width: 540px;
     height: 510px;
     background-color: var(--testo-color);
+    justify-content: center;
 }
 /* /section1 */
 
@@ -160,5 +171,6 @@
     width: 1680px;
     height: 165px;
     background-color: rgb(35 39 42);
+    justify-content: space-around;
 }
 /* /footer */
