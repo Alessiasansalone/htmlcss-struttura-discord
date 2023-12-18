@@ -5,9 +5,10 @@
     box-sizing: border-box;
 }
 
-.dispari {
-    background-color: var(--contenitore1-color);
+body {
+    width: 1680px;
 }
+
 
 .pari {
     background-color: var(--contenitore2-color)
@@ -75,6 +76,7 @@
     border-radius: 10px;
     height: 36px;
     width: 71px;
+    margin: 10px;
 }
 
 .presentazione {
@@ -91,14 +93,17 @@
 
 /* main */
 
+.hsections {
+    height: 742px;
+}
 
 /* section1 */
 .invito {
     width: 1680px;
-    height: 742px;
+    height: 526px;
     justify-content: center;
     background-image: url(./img/jumbo.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -130,16 +135,13 @@
 }
 
 .img {
-    width: 685px;
-    height: 510px;
-    background-color: var(---img-color);
-    justify-content: center;
+    padding-top: 10px;
 }
 
 .text {
-    width: 540px;
-    height: 510px;
-    background-color: var(--testo-color);
+    padding-top: 11%;
+    width: 300px;
+    height: 800px;
     justify-content: center;
 }
 /* /section1 */
