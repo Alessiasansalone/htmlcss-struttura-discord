@@ -197,7 +197,6 @@ body {
 }
 
 .tablet {
-    width: 1225px;
     height: 645px;
 }
 
@@ -221,14 +220,27 @@ body {
     background-color: rgb(35 39 42);
 }
 
-.element {
-    background-color: var(--testo-color);
-    border-style: dotted;
-}
 
 .il-tuo-posto {
-    width: 345px;
+    width: 320px;
     height: 405px;
+}
+
+.text-color {
+    color: rgb(114, 137, 218);
+}
+
+.elenco {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    color: white;
+    vertical-align: middle;
+}
+
+.ita {
+    height: 40px;
+    width: 55px;
+    vertical-align: middle;
 }
 
 .colonna {
