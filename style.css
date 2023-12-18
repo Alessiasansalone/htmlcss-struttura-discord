@@ -21,6 +21,7 @@ body {
  a {
     text-decoration: none;
  }
+
 /* */
 
 
@@ -263,6 +264,10 @@ body {
 
 .text-size {
     font-size: 15px;
+}
+
+hr {
+    color: rgb(114, 137, 214);
 }
 
 .footer-bottom {
