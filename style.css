@@ -99,9 +99,15 @@ body {
     height: 742px;
 }
 
-.wave {
+.wave1 {
     width: 1680px;
     color: rgb(235, 235, 235);
+}
+
+.wave2 {
+    width: 1680px;
+    color: rgb(235, 235, 235);
+    transform: rotate(180deg);
 }
 
 /* section1 */
@@ -131,6 +137,7 @@ body {
     height: 58px;
     width: 150px;
 }
+
 
 .apri {
     background-color: rgb(35, 39, 42);
@@ -180,6 +187,7 @@ body {
     width: 1680px;
     height: 1435px;
     flex-direction: column;
+    background-color: rgb(235, 235, 235);
 }
 
 .affidabile {
